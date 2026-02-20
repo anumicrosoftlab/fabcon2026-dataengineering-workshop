@@ -121,7 +121,7 @@ In the shell, run PySpark.
 
 ## 2) Spark Knowledge Prerequisites 🧠⚡
 
-This workshop assumes basic familiarity with Apache Spark concepts. You don’t need to be an expert—but having a solid foundation will help you get more value from the advanced Fabric-specific content. 💪
+This workshop assumes basic familiarity with Apache Spark concepts. You don’t need to be an expert but having a solid foundation on Spark is important to get more value from the advanced Fabric Spark content. 💪
 
 ### Core concepts to review 📚
 
