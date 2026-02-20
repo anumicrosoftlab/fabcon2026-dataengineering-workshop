@@ -1,4 +1,4 @@
-# Microsoft Fabric 🧵 Spark Engineering Excellence Workshop ⚡
+# Microsoft Fabric Spark Engineering Excellence Workshop ⚡
 
 ## Attendee Prerequisites Guide ✅
 
