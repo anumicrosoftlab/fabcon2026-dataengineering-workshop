@@ -17,7 +17,7 @@ This guide is organized into two parts:
 
 ## 1) Local Spark Environment (Docker + WSL) 💻🐳
 
-One of the highlights of this workshop is running Spark code locally inside a Docker container—similar to how engineering teams develop and test pipelines before deploying to production. 🚀
+One of the highlights of this workshop is running Spark code locally inside a Docker container in Lab 4, similar to how engineering teams develop and test pipelines before deploying to production. 🚀
 
 ### Why run Spark locally first? 🤔
 
