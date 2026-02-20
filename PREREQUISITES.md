@@ -96,11 +96,11 @@ If you see “Hello from Docker!” — you’re in great shape. 🎉
 
 ---
 
-### 1.3 Verify Your Spark Container Works (Smoke Test) 🔥✅
+### 1.3 Verify Your Spark Container Works (Smoke Test) 🔥✅ (Raki to update)
 
 This smoke test confirms your environment is ready for the workshop.
 
-#### Step 1 — Pull the Docker image 📦 (Raki to update)
+#### Step 1 — Pull the Docker image 📦
 
 _(Add the exact commands for stup)_
 
@@ -148,5 +148,4 @@ Complete this checklist before the workshop day. Bring your laptop with all item
 - [ ] 🐧 WSL 2 is installed and running on my machine
 - [ ] 🐳 Docker Desktop is installed and shows “Engine running” status 🟢
 - [ ] ✅ `docker run --rm hello-world` ran successfully
-- [ ] 📦 I pulled the Spark Docker image 
 - [ ] 📚 I’ve reviewed core Spark concepts
