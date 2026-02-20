@@ -151,4 +151,4 @@ Complete this checklist before the workshop day. Bring your laptop with all item
 - [ ] 🐳 Docker Desktop is installed and shows “Engine running” status 🟢
 - [ ] ✅ `docker run --rm hello-world` ran successfully
 - [ ] 📦 I pulled the Spark Docker image 
-- [ ] 📚 I’ve reviewed core Spark concepts](#)
+- [ ] 📚 I’ve reviewed core Spark concepts
