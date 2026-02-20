@@ -131,6 +131,7 @@ This workshop assumes basic familiarity with Apache Spark concepts. You don’t 
 - 🧩 Partitions and shuffles (why they happen)
 - 🔗 Joins (broadcast vs. shuffle), groupBy, aggregations
 - 🧊 Caching/persisting
+- 🔄 Spark Structured Streaming
 
 ### Video learning 🎥
 
