@@ -96,7 +96,7 @@ If you see “Hello from Docker!” — you’re in great shape. 🎉
 
 ---
 
-### 1.3 Verify Your Spark Container Works (Smoke Test) 🔥✅ (Raki to update)
+### 1.3 Verify Your Spark Container Works (Smoke Test) 🔥✅ (Raki to update - Do we need to share steps to clone your repo and setup the container locally?)
 
 This smoke test confirms your environment is ready for the workshop.
 
