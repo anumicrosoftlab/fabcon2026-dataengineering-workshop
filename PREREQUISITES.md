@@ -102,53 +102,12 @@ docker run --rm hello-world
 
 This smoke test confirms your environment is ready for the workshop.
 
-> Tip: The commands below are easiest to run from a **WSL terminal** (Ubuntu, etc.), especially if you want to mount local files into the container.
+#### Step 1 — Pull the Docker image (Raki to update)
 
-#### Step 1 — Pull the PySpark Docker image
 
-```bash
-docker pull jupyter/pyspark-notebook
-```
+#### Step 2 — Confirm Spark runs and prints a version
 
-#### Step 2 — Start the container (Jupyter + Spark)
-
-From a WSL terminal, run:
-
-```bash
-docker run --rm -it \
-  -p 8888:8888 \
-  -v "$(pwd)":/home/jovyan/work \
-  jupyter/pyspark-notebook
-```
-
-What this does:
-
-- Exposes Jupyter on `http://localhost:8888`
-- Mounts your current folder into the container at `/home/jovyan/work`
-
-#### Step 3 — Open Jupyter
-
-- Open the URL shown in the terminal output (typically `http://localhost:8888/?token=...`), or
-- Open `http://localhost:8888` and paste the token printed in the container logs.
-
-#### Step 4 — Confirm Spark runs and prints a version
-
-In a new notebook cell, run one of the following:
-
-Option A (often available by default in this image):
-
-```python
-spark.version
-```
-
-Option B (explicitly create/get a Spark session):
-
-```python
-from pyspark.sql import SparkSession
-
-spark = SparkSession.builder.getOrCreate()
-print(spark.version)
-```
+In the shell, run PySpark
 
 ✅ You’re all set if…
 
@@ -172,27 +131,10 @@ This workshop assumes basic familiarity with Apache Spark concepts. You don’t 
 - Joins (broadcast vs. shuffle), groupBy, aggregations
 - Caching/persisting
 
-### Free online learning resources
+### Video learning
 
-- Apache Spark Documentation (start here): https://spark.apache.org/docs/latest/
-- Spark SQL, DataFrames and Datasets Guide: https://spark.apache.org/docs/latest/sql-programming-guide.html
-- RDD Programming Guide (optional background): https://spark.apache.org/docs/latest/rdd-programming-guide.html
+Spark Learning Series: https://learning.oreilly.com/videos/apache-spark-3/9781803241555/9781803241555-video2_2/
 
-### Video learning (choose any)
-
-- Search YouTube for: “Apache Spark DataFrames transformations actions lazy evaluation”
-- Search YouTube for: “Spark shuffle partitioning joins broadcast join”
-
-### Good blogs / reading prompts
-
-If you prefer reading, search for these topics:
-
-- “Spark shuffle explained”
-- “Spark AQE adaptive query execution”
-- “Spark partitioning best practices”
-- “Spark skew handling salting broadcast join”
-
----
 
 ## Pre-Workshop Checklist
 
