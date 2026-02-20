@@ -137,6 +137,9 @@ This workshop assumes basic familiarity with Apache Spark concepts. You don’t 
 Spark Learning Series:
 https://learning.oreilly.com/videos/apache-spark-3/9781803241555/9781803241555-video2_2/
 
+Spark Streaming Execution Model: 
+https://www.youtube.com/watch?v=zx5H82fmUPU&list=PLgPb8HXOGtsQeiFz1y9dcLuXjRh8teQtw&index=21
+
 ---
 
 ## Pre-Workshop Checklist 📝✅
