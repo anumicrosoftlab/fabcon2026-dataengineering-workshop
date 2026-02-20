@@ -96,23 +96,10 @@ If you see “Hello from Docker!” — you’re in great shape. 🎉
 
 ---
 
-### 1.3 Verify Your Spark Container Works (Smoke Test) 🔥✅ (Raki to update - Do we need to share steps to clone your repo and setup the container locally?)
-
-This smoke test confirms your environment is ready for the workshop.
-
-#### Step 1 — Pull the Docker image 📦
-
-_(Add the exact commands for stup)_
-
-#### Step 2 — Confirm Spark runs and prints a version 🧾
-
-In the shell, run PySpark.
-
 ✅ **You’re all set if…**
 
 - 🐳 `docker --version` returns a version number (e.g., Docker version 26.x.x)
 - ✅ `docker run --rm hello-world` prints “Hello from Docker!”
-- ⚡ `spark.version` prints a Spark version (e.g., 3.5.x)
 - 🧘 No errors appear during container startup
 
 ---
